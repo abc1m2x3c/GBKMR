@@ -107,4 +107,6 @@ plot(z1_grid,res$h.est,type='l',xlab='z1',ylab='Estimate')
 lines(z1_grid,2*sin(z1_grid*pi/2),col='red',lty=2)
 
 ```
-![Optional Text](../master/example.png)
+
+<img src="https://github.com/abc1m2x3c/GBKMR/blob/main/example.png" width="400" height="400">
+
