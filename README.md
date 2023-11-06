@@ -15,7 +15,7 @@ package.check <- sapply(
 )
 ```
         
-Now we are ready to fit GBKMR model.
+Now we are ready to fit GBKMR model following steps below.
 
 ## Clean memory and set seed to guarantee the repetition
 ```
@@ -87,7 +87,7 @@ The output of the function will be shown as below.
 The correct variables Z1 to Z3 are selected since they have 100% PIP, distinctly higher than the rest variables.
 
 ## Effect estimation using GBKMR
-We can further use function gbkmr.pred to estimate the relationship between Z's and the outcome y. For example,
+We can further use function gbkmr.pred to estimate the relationship between Z's and the outcome y. Below is a code example to estimate the relationship between z1 and y when z2=0.5 and z3=0.
 ```
 # First, set the delta.start to be the status selected by gbkmr.varselect
 start.params=set.start.param(data,family,delta.start=c(TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE))
