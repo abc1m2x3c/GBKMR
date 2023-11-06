@@ -1,5 +1,5 @@
 # R programs for the article "Generalized Bayesian Kernel Machine Regression"
-This is an example to implement Generalized Bayesian Kernel Machine Regression (GBKMR) for variable selection and effect estimation. The manuscript has been submitted to Biostatistics for review. Before use, please download the following R files to the working directory: 
+This is an example to implement Generalized Bayesian Kernel Machine Regression (GBKMR) for variable selection and effect estimation. The manuscript has been submitted to Biostatistics for review. Before use, please download the following R files in this repository  to the working directory: gbkmr.R, setparams.R, simgendata.R, src.R. 
 
 Install missing packages or load the package if already installed    
 ```
